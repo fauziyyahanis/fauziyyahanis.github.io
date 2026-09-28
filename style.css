@@ -137,3 +137,27 @@ ol {
     height: auto;
     margin: 0;
 }
+
+.image-side-right {
+    float: right;
+    width: 40%;
+    margin: 0 0 30px 30px;
+}
+
+.image-side-right img {
+    width: 100%;
+    max-width: none;
+    margin: 0 0 20px 0;
+}
+
+.image-side-left {
+    float: left;
+    width: 40%;
+    margin: 0 30px 30px 0;
+}
+
+.image-side-left img {
+    width: 100%;
+    max-width: none;
+    margin: 0 0 20px 0;
+}
