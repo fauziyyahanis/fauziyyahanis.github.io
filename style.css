@@ -58,3 +58,8 @@ img {
     height: auto;
     margin: 0 auto 50px;
 }
+
+ol {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
