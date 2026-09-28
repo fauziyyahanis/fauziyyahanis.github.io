@@ -184,6 +184,27 @@
     <p>
         <a href="../index.html" class="back-link">← Back to Portfolio</a>
     </p>
+    
+    <div class="image-overlay" id="imageOverlay">
+        <img id="overlayImage">
+    </div>
 
+    <script>
+        const clickableImages = document.querySelectorAll('.clickable-image');
+        const imageOverlay = document.getElementById('imageOverlay');
+        const overlayImage = document.getElementById('overlayImage');
+    
+        clickableImages.forEach(image => {
+            image.addEventListener('click', () => {
+                overlayImage.src = image.src;
+                imageOverlay.style.display = 'flex';
+            });
+        });
+    
+        imageOverlay.addEventListener('click', () => {
+            imageOverlay.style.display = 'none';
+        });
+    </script>
+    
 </body>
 </html>
