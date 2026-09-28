@@ -89,3 +89,11 @@ ol {
     color: #555;
     background: white;
 }
+.back-link {
+    color: #222;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
