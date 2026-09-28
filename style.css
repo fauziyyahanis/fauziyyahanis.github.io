@@ -74,3 +74,18 @@ ol {
     height: 100%;
     border: none;
 }
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.tags span {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #555;
+    background: white;
+}
