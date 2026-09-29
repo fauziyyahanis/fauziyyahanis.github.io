@@ -205,10 +205,12 @@ ol {
     border: none;
 }
 .project-item {
+    height: 100%;
     margin-bottom: 0;
 }
 .project-item a {
     display: block;
+    height: 100px;
     padding: 15px 20px;
     background: white;
     border: 1px solid #ddd;
@@ -220,4 +222,5 @@ ol {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    list-style: none;
 }
