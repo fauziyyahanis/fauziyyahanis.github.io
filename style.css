@@ -204,3 +204,6 @@ ol {
     height: 100%;
     border: none;
 }
+.project-item {
+    margin-bottom: 15px;
+}
