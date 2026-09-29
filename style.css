@@ -235,4 +235,8 @@ ol {
     .project-grid {
         grid-template-columns: 1fr;
     }
+
+    .pdf-frame {
+        display: none;
+    }
 }
