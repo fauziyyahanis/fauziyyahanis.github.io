@@ -205,7 +205,7 @@ ol {
     border: none;
 }
 .project-item {
-    margin-bottom: 15px;
+    margin-bottom: 0;
 }
 .project-item a {
     display: block;
