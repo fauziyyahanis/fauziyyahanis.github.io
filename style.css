@@ -231,3 +231,8 @@ ol {
     gap: 20px;
     list-style: none;
 }
+@media (max-width: 600px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
