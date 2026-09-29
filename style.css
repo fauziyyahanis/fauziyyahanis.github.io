@@ -193,3 +193,14 @@ ol {
     max-width: none;
     margin: 0 auto;
 }
+.document-frame {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    margin-bottom: 50px;
+}
+
+.document-frame iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
