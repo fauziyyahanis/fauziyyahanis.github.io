@@ -222,8 +222,8 @@ ol {
     color: #222;
     text-align: center;
 }
-.project-item a: hover {
-    background: #f0f0f0
+.project-item a:hover {
+    background: #f0f0f0;
 }
 .project-grid {
     display: grid;
