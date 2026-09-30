@@ -209,7 +209,6 @@ ol {
     margin-bottom: 0;
 }
 .project-item a {
-    display: block;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -231,6 +230,9 @@ ol {
     gap: 20px;
     list-style: none;
 }
+.mobile-pdf-link {
+    display: none;
+}
 @media (max-width: 600px) {
     .project-grid {
         grid-template-columns: 1fr;
@@ -238,5 +240,9 @@ ol {
 
     .pdf-frame {
         display: none;
+    }
+
+    .mobile-pdf-link {
+        display: block;
     }
 }
