@@ -230,19 +230,21 @@ ol {
     gap: 20px;
     list-style: none;
 }
-.mobile-pdf-link {
+.mobile-file-link {
     display: none;
 }
+
 @media (max-width: 600px) {
     .project-grid {
         grid-template-columns: 1fr;
     }
 
-    .pdf-frame {
+    .pdf-frame,
+    .document-frame {
         display: none;
     }
 
-    .mobile-pdf-link {
+    .mobile-file-link {
         display: block;
     }
 }
