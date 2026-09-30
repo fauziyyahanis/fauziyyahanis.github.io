@@ -6,8 +6,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #0b1957;
-    background: #f8f3e8;
+    color: #222;
+    background: #f8f7f4;
     line-height: 1.6;
     max-width: 1000px;
     margin: 0 auto;
@@ -83,35 +83,14 @@ ol {
 
 .tags span {
     padding: 6px 12px;
-    border: 1px solid #426bc2;
+    border: 1px solid #ccc;
     border-radius: 20px;
     font-size: 14px;
-    color: #0b1957;
-    background: #e9f3ff;
+    color: #555;
+    background: white;
 }
-
-.tags span:nth-child(2) {
-    background: #f0ebff;
-}
-
-.tags span:nth-child(3) {
-    background: #e8f6ef;
-}
-
-.tags span:nth-child(4) {
-    background: #fff0e6;
-}
-
-.tags span:nth-child(5) {
-    background: #fff9d6;
-}
-
-.tags span:nth-child(6) {
-    background: #fceaf1;
-}
-
 .back-link {
-    color: #426bc2;
+    color: #222;
     text-decoration: none;
 }
 
@@ -235,16 +214,16 @@ ol {
     justify-content: center;
     height: 100px;
     padding: 15px 20px;
-    background: #e9f3ff;
-    border: 1px solid #426bc2;
+    background: white;
+    border: 1px solid #ddd;
     border-radius: 10px;
     text-decoration: none;
-    color: #0b1957;
+    color: #222;
     text-align: center;
     transition: 0.2s ease;
 }
 .project-item a:hover {
-    background: #f4e9a8;
+    background: #f0f0f0;
     transform: translateY(-3px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
