@@ -220,9 +220,12 @@ ol {
     text-decoration: none;
     color: #222;
     text-align: center;
+    transition: 0.2s ease;
 }
 .project-item a:hover {
     background: #f0f0f0;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 .project-grid {
     display: grid;
@@ -238,13 +241,24 @@ ol {
     .project-grid {
         grid-template-columns: 1fr;
     }
-
     .pdf-frame,
     .document-frame {
         display: none;
     }
-
     .mobile-file-link {
         display: block;
+    }
+    h1 {
+        font-size: 36px;
+    }
+
+    h1 + p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 26px;
+        margin-top: 40px;
     }
 }
