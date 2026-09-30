@@ -7,18 +7,11 @@
 body {
     font-family: Arial, sans-serif;
     color: #0b1957;
-    background: #0b1957;
+    background: #f8f3e8;
     line-height: 1.6;
-    margin: 0;
-    padding: 40px;
-}
-
-main {
     max-width: 1000px;
     margin: 0 auto;
     padding: 60px 40px;
-    background: #f8f3e8;
-    border-radius: 16px;
 }
 
 h1 {
