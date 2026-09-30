@@ -7,11 +7,18 @@
 body {
     font-family: Arial, sans-serif;
     color: #0b1957;
-    background: #f8f7f4;
+    background: #0b1957;
     line-height: 1.6;
+    margin: 0;
+    padding: 40px;
+}
+
+main {
     max-width: 1000px;
     margin: 0 auto;
     padding: 60px 40px;
+    background: #f8f3e8;
+    border-radius: 16px;
 }
 
 h1 {
@@ -244,7 +251,7 @@ ol {
     transition: 0.2s ease;
 }
 .project-item a:hover {
-    background: #f7f43d;
+    background: #f4e9a8;
     transform: translateY(-3px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
