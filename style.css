@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #222;
+    color: #333333;
     background: #f8f7f4;
     line-height: 1.6;
     max-width: 1000px;
@@ -18,18 +18,20 @@ h1 {
     font-size: 48px;
     line-height: 1.1;
     margin-bottom: 20px;
+    color: #0b1957;
 }
 
 h1 + p {
     font-size: 20px;
     margin-bottom: 60px;
-    color: #555;
+    color: #666666;
 }
 
 h2 {
     font-size: 30px;
     margin-top: 60px;
     margin-bottom: 30px;
+    color: #0b1957;
 }
 
 h3 {
