@@ -86,11 +86,31 @@ ol {
 
 .tags span {
     padding: 6px 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #426bc2;
     border-radius: 20px;
     font-size: 14px;
-    color: #555;
-    background: white;
+    color: #0b1957;
+    background: #e9f3ff;
+}
+
+.tags span:nth-child(2) {
+    background: #f0ebff;
+}
+
+.tags span:nth-child(3) {
+    background: #e8f6ef;
+}
+
+.tags span:nth-child(4) {
+    background: #fff0e6;
+}
+
+.tags span:nth-child(5) {
+    background: #fff9d6;
+}
+
+.tags span:nth-child(6) {
+    background: #fceaf1;
 }
 .back-link {
     color: #222;
