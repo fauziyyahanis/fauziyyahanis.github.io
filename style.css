@@ -232,8 +232,9 @@ ol {
     margin-bottom: 0;
 }
 .project-item a {
-    display: block;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     padding: 0;
     background: #ffffff;
     border: 1px solid #ddd;
