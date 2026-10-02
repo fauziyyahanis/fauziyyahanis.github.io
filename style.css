@@ -338,6 +338,18 @@ ol {
     display: none;
 }
 
+.portfolio-header {
+    margin: -60px -40px 50px;
+}
+
+.portfolio-header img {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    margin: 0;
+}
+
 @media (max-width: 600px) {
     .project-grid {
         grid-template-columns: 1fr;
