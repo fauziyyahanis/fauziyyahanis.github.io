@@ -277,10 +277,34 @@ ol {
 .card-tags span {
     padding: 3px 7px;
     border-radius: 4px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
     color: #333333;
     background: #e9f3ff;
+}
+
+.card-tags span:nth-child(6n + 1) {
+    background: #e9f3ff;
+}
+
+.card-tags span:nth-child(6n + 2) {
+    background: #f0ebff;
+}
+
+.card-tags span:nth-child(6n + 3) {
+    background: #e8f6ef;
+}
+
+.card-tags span:nth-child(6n + 4) {
+    background: #fff0e6;
+}
+
+.card-tags span:nth-child(6n + 5) {
+    background: #fff9d6;
+}
+
+.card-tags span:nth-child(6n) {
+    background: #fceaf1;
 }
 
 .project-grid {
