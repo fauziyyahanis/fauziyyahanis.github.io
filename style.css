@@ -260,12 +260,29 @@ ol {
     margin: 0;
 }
 
-.project-item span {
+.project-item > a > span {
     display: block;
-    padding: 18px;
+    padding: 18px 18px 10px;
     font-size: 17px;
     font-weight: 600;
 }
+
+.card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 0 18px 18px;
+}
+
+.card-tags span {
+    padding: 3px 7px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: normal;
+    color: #333333;
+    background: #e9f3ff;
+}
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
