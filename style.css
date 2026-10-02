@@ -110,9 +110,30 @@ ol {
     background: #fff9d6;
 }
 
-.tags span:nth-child(6) {
+.tags span:nth-child(6n+1) {
     background: #fceaf1;
 }
+
+.tags span:nth-child(6n+2) {
+    background: #f0ebff;
+}
+
+.tags span:nth-child(6n+3) {
+    background: #e8f6ef;
+}
+
+.tags span:nth-child(6n+4) {
+    background: #fff0e6;
+}
+
+.tags span:nth-child(6n+5) {
+    background: #fff9d6;
+}
+
+.tags span:nth-child(6n) {
+    background: #fceaf1;
+}
+
 .back-link {
     color: #222;
     text-decoration: none;
