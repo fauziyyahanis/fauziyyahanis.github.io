@@ -363,13 +363,14 @@ ol {
 .about-section h2 {
     margin-top: 0;
     margin-bottom: 25px;
-    color: #ffffff;
+    color: #f4e9a8;
 }
 
 .about-description {
     max-width: 800px;
     margin-bottom: 35px;
     color: #f8f3e8;
+    font-size: 17px;
 }
 
 .about-timeline {
@@ -399,8 +400,8 @@ ol {
 }
 
 .timeline-date {
-    font-size: 14px;
-    color: #f8f3e8;
+    font-size: 15px;
+    color: #f4e9a8;
 }
 
 .timeline-content {
@@ -411,11 +412,11 @@ ol {
 }
 
 .timeline-content strong {
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .timeline-content span {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 @media (max-width: 600px) {
@@ -442,7 +443,7 @@ ol {
         font-size: 26px;
         margin-top: 40px;
     }
-        .timeline-item {
+    .timeline-item {
         grid-template-columns: 1fr;
         gap: 8px;
     }
