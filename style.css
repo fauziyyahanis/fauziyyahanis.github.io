@@ -61,6 +61,7 @@ img {
     width: 100%;
     height: auto;
     margin: 0 auto 50px;
+    border: 1px solid #0b1957;
 }
 
 ol {
