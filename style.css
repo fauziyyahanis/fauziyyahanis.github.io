@@ -350,7 +350,7 @@ ol {
     width: 140%;
     max-width: none;
     height: auto;
-    margin: -25px 0 0 -20%;
+    margin: -95px 0 0 -20%;
 }
 
 @media (max-width: 600px) {
@@ -380,7 +380,7 @@ ol {
 }
 
 .home-page {
-    background: #0b1957;
+    background: #17172e;
     color: #f8f3e8;
 }
 
