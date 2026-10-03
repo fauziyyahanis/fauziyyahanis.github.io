@@ -8,7 +8,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     font-size: 17px;
     color: #333333;
-    background: #e9f3ff;
+    background: #fbf3e4;
     line-height: 1.7;
     max-width: 1000px;
     margin: 0 auto;
@@ -44,7 +44,7 @@ h3 {
 
 p {
     margin-bottom: 20px;
-    color: #555;
+    color: #0b1957;
 }
 
 ul {
