@@ -25,7 +25,7 @@ h1 {
 h1 + p {
     font-size: 20px;
     margin-bottom: 60px;
-    color: #666666;
+    color: #f8f3e8;
 }
 
 h2 {
@@ -339,7 +339,7 @@ ol {
 }
 
 .portfolio-header {
-    margin: -60px -40px 50px;
+    margin: -60px -40px 25px;
 }
 
 .portfolio-header img {
