@@ -378,3 +378,20 @@ ol {
         margin-top: 40px;
     }
 }
+
+.home-page {
+    background: #0b1957;
+    color: #f8f3e8;
+}
+
+.home-page h2 {
+    color: #ffffff;
+}
+
+.home-page h3 {
+    color: #f8f3e8;
+}
+
+.home-page > p {
+    color: #d9d9d9;
+}
