@@ -363,11 +363,22 @@ ol {
 .about-section h2 {
     margin-top: 0;
     margin-bottom: 25px;
-    color: #f4e9a8;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.about-section h2::after {
+    content: "";
+    width: 45px;
+    height: 4px;
+    background: #f4e9a8;
+    border-radius: 4px;
 }
 
 .about-description {
-    max-width: 800px;
+    width: 100%;
     margin-bottom: 35px;
     color: #f8f3e8;
     font-size: 17px;
@@ -381,14 +392,14 @@ ol {
 
 .about-category {
     padding: 25px;
-    background: #426bc2;
+    background: #e9f3ff;
     border-radius: 12px;
 }
 
 .about-category h3 {
     margin-top: 0;
     margin-bottom: 20px;
-    color: #ffffff;
+    color: #0b1957;
 }
 
 .timeline-item {
@@ -396,19 +407,19 @@ ol {
     grid-template-columns: 150px 1fr;
     gap: 20px;
     padding: 18px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(11, 25, 87, 0.2);
 }
 
 .timeline-date {
     font-size: 15px;
-    color: #f4e9a8;
+    color: #0b1957;
 }
 
 .timeline-content {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    color: #ffffff;
+    color: #0b1957;
 }
 
 .timeline-content strong {
