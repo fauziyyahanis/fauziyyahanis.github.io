@@ -392,7 +392,7 @@ ol {
 
 .about-category {
     padding: 25px;
-    background: #e9f3ff;
+    background: #fbf3e4;
     border-radius: 12px;
 }
 
@@ -475,6 +475,10 @@ ol {
 
 .home-page h3 {
     color: #f8f3e8;
+}
+
+.home-page .about-category h3 {
+    color: #0b1957;
 }
 
 .home-page > p {
